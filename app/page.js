@@ -31,7 +31,6 @@ export default function Home() {
           />         
         <button><a href="https://www.simpletix.com/e/helotes-haunted-gardens-2024-tickets-182408" referrerPolicy="no-referrer" target="_blank">Get Tickets</a></button>
       </div>
-
     </div>
   );
   

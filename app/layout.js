@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { inter } from "./ui/styles/fonts";
 import "./ui/styles/globals.css";
 
@@ -9,10 +10,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <footer style={{backgroundColor: 'orange', border: '1px solid white'}}>
-        <p style={{color: 'black'}}>Contact info here</p>
-      </footer>
+      <body className={inter.className}>
+        <header>
+          <nav>
+          <Link className="nav-link" href="/">Home</Link>  
+          <Link className="nav-link" href="location">Location</Link>
+          <Link className="nav-link" href="acting-signup">Actor Signup</Link>
+          </nav>
+        </header>
+        {children}
+        <footer style={{backgroundColor: 'orange', border: '1px solid white'}}>
+          <p style={{color: 'black'}}>Contact info here</p>
+        </footer>
+      </body>
     </html>
   );
 }

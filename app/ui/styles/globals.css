@@ -2,6 +2,12 @@ p{
   font-size: larger;
 }
 
+header {
+  display: flex;
+  background-color: orange;
+  justify-content: center;
+}
+
 .logo-img {
   display: inline;
 }
@@ -14,6 +20,11 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.nav-link {
+  font-weight: 500;
+  padding-right: 1em;
 }
 
 .video-main-background {
