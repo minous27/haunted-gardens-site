@@ -1,25 +1,22 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+// import styles from "./page.module.css";
 import { lusitana, shadinlit } from "./ui/styles/fonts";
 
 export default function Home() {
   return(
     <div className="home-main">
-      <div className="header-container">
-        <Image
-          src="/Haunted_Gardens_logo.JPG"
-          width={1300}
-          height={600}
-          className="logo-img"
-          alt="Haunted Gardens logo"
-        />
-      </div>
       <h1 className={`${shadinlit.className}`}>The spookiest, haunted, gory path in Old Town Helotes</h1>
       <p className={`${shadinlit.className}`}>It's okay to scream...</p>
-      <div className="video-tix-container">
-        <video 
+      {/* <div className="home-content-container"> */}
+        <Image
+            src="/hhg_flyer_2024.JPG"
+            height={849}
+            width={1280}
+            className="flyer-img"
+            alt="Haunted Gardens 2024 Flyer"
+          />
+        {/* <video 
           className="video-main-background" 
-          // src="/haunted_characters_tiktok.mp4"
           src="/haunted_characters_tiktok_edited.mp4"
           type="video/mp4"
           height={600}
@@ -28,9 +25,9 @@ export default function Home() {
           muted 
           loop 
           playsInline
-          />         
-        <button><a href="https://www.simpletix.com/e/helotes-haunted-gardens-2024-tickets-182408" referrerPolicy="no-referrer" target="_blank">Get Tickets</a></button>
-      </div>
+          />          */}
+          {/* <button><a href="https://www.simpletix.com/e/helotes-haunted-gardens-2024-tickets-182408" referrerPolicy="no-referrer" target="_blank">Get Tickets</a></button> */}
+      {/* </div> */}
     </div>
   );
   
