@@ -12,6 +12,7 @@ export default function Page() {
             width={980}
             height={805}
             alt={"Screenshot of map showing location of event"}
+            priority={true}
             />
         </div>
     );
