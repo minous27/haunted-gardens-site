@@ -5,7 +5,7 @@ export default function Home() {
   return(
     <div className="home-main">
       <h1 className={`${shadinlit.className}`}>The spookiest, haunted, gory path in Old Town Helotes</h1>
-      <p className={`${shadinlit.className}`}>It's okay to scream...</p>
+      <p className={`${shadinlit.className}`}>It&apos;s okay to scream...</p>
       <Image
         src="/hhg_flyer_2024.JPG"
         height={849}
