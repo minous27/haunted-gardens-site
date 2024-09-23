@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
             <Link className="nav-link" href={"https://www.simpletix.com/e/helotes-haunted-gardens-2024-tickets-182408"} referrerPolicy="no-referrer" target="_blank">Buy Tickets</Link>
             <Link className="nav-link" href="location">Location</Link>
             <Link className="nav-link" href="contact-us">Contact Us</Link>
+            <Link className="nav-link" href="actor-interest">Actor Interest</Link>
           </nav>
         </header>
         {children}
