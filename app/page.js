@@ -7,11 +7,11 @@ export default function Home() {
       <h1 className={`${shadinlit.className}`}>The spookiest, haunted, gory path in Old Town Helotes</h1>
       <p className={`${shadinlit.className}`}>It&apos;s okay to scream...</p>
       <Image
-        src="/hhg_flyer_2024.JPG"
+        src="/Haunted_Gardens_flyer_2025.jpeg"
         height={849}
         width={1280}
         className="flyer-img"
-        alt="Haunted Gardens 2024 Flyer"
+        alt="Haunted Gardens 2025 Flyer"
         priority={true}
       />
     </div>
