@@ -1,0 +1,1 @@
+export const TICKET_SITE_URL = "https://www.simpletix.com/e/helotes-haunted-gardens-2026-tickets-294554";

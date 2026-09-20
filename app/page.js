@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { shadinlit, inter } from "./ui/styles/fonts";
+import { shadinlit } from "./ui/styles/fonts";
+import BuyTicketsButton from "./ui/components/BuyTicketsButton";
 
 export default function Home() {
   return(
@@ -9,11 +10,13 @@ export default function Home() {
       <p className={`${shadinlit.className}`}>It&apos;s okay to scream...</p>
       <Image
         src="/Haunted_Gardens_flyer_2026.jpg"
+        width={849}
+        height={1280}
         className="flyer-img"
         alt="Haunted Gardens 2025 Flyer"
         priority={true}
       />
-      <button className="buy-tickets">Buy Tickets Now</button>
+      <BuyTicketsButton />
     </div>
   );
 }
