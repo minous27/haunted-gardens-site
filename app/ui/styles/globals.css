@@ -60,6 +60,8 @@ header {
 .actor-interest-g-form {
   height: 90vh;
   width: 100%;
+  border: 0;
+  margin: 0; 
 }
 
 .buy-tickets {
@@ -106,6 +108,7 @@ header {
   width: 80%;
   max-width: 100vh;
   height: 80%;
+  padding: 5px;
 }
 
 .location-container {
