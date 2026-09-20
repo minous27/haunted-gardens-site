@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { inter } from "./ui/styles/fonts";
 import "./ui/styles/globals.css";
+import { TICKET_SITE_URL } from "./ui/constants";
 
 export const metadata = {
   title: "Helotes Haunted Gardens",
@@ -68,7 +69,7 @@ export default function RootLayout({ children }) {
         <header>
           <nav className="nav-section">
             <Link className="nav-link" href="/">Home</Link>  
-            <Link className="nav-link" href={"https://www.simpletix.com/e/helotes-haunted-gardens-2025-tickets-238827"} referrerPolicy="no-referrer" target="_blank">Buy Tickets</Link>
+            <Link className="nav-link" href={TICKET_SITE_URL} referrerPolicy="no-referrer" target="_blank">Buy Tickets</Link>
             <Link className="nav-link" href="location">Location</Link>
             <Link className="nav-link" href="contact-us">Contact Us</Link>
             <Link className="nav-link" href="actor-interest">Actor Interest</Link>
